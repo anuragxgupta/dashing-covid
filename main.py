@@ -27,7 +27,7 @@ def update_output_div(input_value1, input_value2):
     return dashboard.confirmed_trend(input_value1, input_value2), dashboard.generate_cards(input_value1)
 
 
-app.run_server(debug=True)
+# app.run_server(debug=True)
 
 
 
